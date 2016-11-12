@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="bqh.cslg.autocompletetextview.MainActivity"
+    android:orientation="vertical">
+
+
+    <AutoCompleteTextView
+        android:id="@+id/auto"
+        android:hint="请输入关键字"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"/>
+    <MultiAutoCompleteTextView
+        android:id="@+id/mulText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入关键字"
+        android:completionThreshold="1"/>
+</LinearLayout>

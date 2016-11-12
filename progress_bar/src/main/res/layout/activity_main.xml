@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="bqh.cslg.progress_bar.MainActivity">
+
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress" />
+
+    <Button
+        android:text="增加"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progress"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:id="@+id/add" />
+
+    <Button
+        android:text="减少"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add"
+        android:layout_alignRight="@+id/add"
+        android:layout_alignEnd="@+id/add"
+        android:layout_marginTop="26dp"
+        android:id="@+id/minute" />
+
+    <Button
+        android:text="重置"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/minute"
+        android:layout_alignRight="@+id/minute"
+        android:layout_alignEnd="@+id/minute"
+        android:layout_marginTop="56dp"
+        android:id="@+id/reset" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reset"
+        android:layout_alignRight="@+id/reset"
+        android:layout_alignEnd="@+id/reset"
+        android:layout_marginTop="58dp"
+        android:id="@+id/first" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/first"
+        android:layout_toEndOf="@+id/first"
+        android:layout_marginLeft="86dp"
+        android:layout_marginStart="86dp"
+        android:id="@+id/second"
+        android:layout_alignTop="@+id/first" />
+
+    <Button
+        android:text="显示进度条"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="45dp"
+        android:id="@+id/dialog" />
+
+
+</RelativeLayout>

@@ -1,0 +1,1 @@
+include ':app', ':gridview', ':spinner', ':progress_bar', ':webview', ':fragment', ':text', ':autocompletetextview', ':checkbox', ':radiogroup', ':framelayout', ':viewpager', ':viewflipper', ':scrollview', ':gallery', ':seekbar', ':file', ':broadcast', ':back', ':service', ':systemservice'

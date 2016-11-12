@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="bqh.cslg.framelayout.MainActivity"
+    >
+
+
+    <TextView
+        android:layout_gravity="center"
+        android:background="#785435"
+        android:text="第一个"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:background="#985764"
+        android:text="第二个"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:background="#564238"
+        android:text="第三个"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:background="#697524"
+        android:text="第四个"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/textView4" />
+</FrameLayout>

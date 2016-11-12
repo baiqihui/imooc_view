@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="bqh.cslg.systemservice.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/network"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doClick"
+        android:text="network"/>
+
+    <Button
+        android:text="Wifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/wifi"
+        android:onClick="doClick"/>
+
+    <Button
+        android:text="Voice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/voice"
+        android:onClick="doClick"/>
+
+    <Button
+        android:text="获取包名"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/getPackage"
+        android:onClick="doClick"/>
+
+</LinearLayout>
